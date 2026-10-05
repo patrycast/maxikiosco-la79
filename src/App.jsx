@@ -225,7 +225,7 @@ export default function App() {
       <S.Footer>
         © 2026 {NEGOCIO.nombre} · Mar del Tuyú, Buenos Aires
         <S.Credit>
-          Sitio web creado por
+          Desarrollado por 
           <a
             href={autoraLink}
             target="_blank"
