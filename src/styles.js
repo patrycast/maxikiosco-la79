@@ -163,6 +163,12 @@ export const Badge = styled.span`
   font-size: 0.85rem;
   margin-bottom: 16px;
   color: #df7411;
+  @media (max-width: 760px) {
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+  }
 `;
 export const Title = styled.h1`
   font-size: clamp(2.2rem, 6vw, 3.8rem);
